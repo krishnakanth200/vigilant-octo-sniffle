@@ -1,0 +1,191 @@
+body{
+    color: white;
+    margin: 0;
+    background-color: #1F1717;
+    padding: 50px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F1717;
+    
+}
+.nav-right ul{
+    display: flex;
+    padding-right: 50px;
+    list-style-type: none;
+}
+.nav-right ul li{
+    padding: 10px;
+    margin: 5px;
+    color: antiquewhite;
+    border: 2px solid white;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: 15px;
+   
+
+}
+.nav-left img{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    padding-left: 30px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    
+}
+.home-left{
+    width: 50vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+.home img{
+    position: static;
+    border:1px solid #1F1717;
+    height: 900px;
+    width: 900px;
+    border: #1F1717 2px solid;
+    border-radius: 50%;
+ 
+}
+.about{
+    letter-spacing: 0.2rem;
+    font-size: 30px;
+    padding-top: 90px;
+    padding-left: 30px;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+span{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-me{
+    padding-top: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: fit-content;
+    
+}
+.about-me h1{
+    color: orangered;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 40px;
+}
+.about-me p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:larger;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    width: 90vw;
+    letter-spacing: 2px;
+}
+.Services{
+    padding: 20px;
+    
+}
+.Services .h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: orangered;
+    text-align: center;
+    padding-top: 20px;
+}
+.services-sub{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+.service-card{
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 400px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.service-card h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.service-card p{
+    text-align: justify;
+}
+.education{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+
+}
+.education h1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: orangered;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 10px;
+}
+.acadamics ul{
+    list-style-type: none;
+
+}
+.acadamics h1{
+    color: firebrick;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.acadamics {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30vh;
+    border: 3px solid orangered;
+    margin: 20px;
+    width: 500px;
+    height: 150px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.acadamics li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.twitter img{
+    height: 50px;
+    padding: 10px;
+
+}
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    color: red;
+    background-color:#1F1717 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.twitter{
+    display: flex;
+    flex-direction: column-reverse;
+}
